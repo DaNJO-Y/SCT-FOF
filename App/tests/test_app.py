@@ -47,6 +47,7 @@ class staffUnitTests(unittest.TestCase):
         staff = Staff("Mr.", "Johnny", "Applesauce", "johnny.applesauce@mail.com", "Y", password, "0")
         assert staff.check_password(password)
 
+
 '''
     Integration Tests
 '''
